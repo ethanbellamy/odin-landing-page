@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-.section-1, .section-2, .section-3 {
+.section-1, .section-2 {
     padding: 0 300px;
 }
 
@@ -18,12 +18,12 @@
     color: #F9FAF8;
 }
 
-.section-1 .subtext, .section-1 li, .section-1 .placeholder {
+.section-1 .subtext, .section-1 li, .section-1 .placeholder, .section-4 .call-text {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.header {
+.section-1 .header, .section-4 .call-header {
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -124,4 +124,24 @@
     text-align: right;
     font-size: 24px;
     margin-right: 50px;
+}
+
+.section-4 {
+    margin: 100px 300px;
+    padding: 50px 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-4 button {
+    border: white solid 3px;
+    border-radius: 10px;
+    color: #F9FAF8;
+    padding: 6px 24px;
+    background-color: #3882F6;
+    font-weight: bold;
+    font-size: 20px;
 }

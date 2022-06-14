@@ -4,12 +4,15 @@
     padding: 0;
 }
 
-.section-1 {
-    background-color: #1F2937;
+.section-1, .section-2 {
     padding: 0 300px;
 }
 
-.section-1 .hero {
+.section-1 {
+    background-color: #1F2937;
+}
+
+.hero {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
@@ -20,7 +23,7 @@
     color: #E5E7EB;
 }
 
-.section-1 .header {
+.header {
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -69,4 +72,33 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+    margin: 32px 0;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.info-child {
+    text-align: center;
+    flex: 0 0 auto;
+    width: 150px;
+    color: rgb(90, 90, 90);
+}
+
+.info-box {
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    height: 140px;
+    width: 140px;
+    margin-bottom: 10px;
 }
